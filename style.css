@@ -1,0 +1,53 @@
+body {
+    font-size: 10px;
+}
+
+svg {
+    float: left;
+}
+
+div#yearDiv {
+    float: left;
+    width: 290px;
+    font-size: 12px;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-width: 90;
+    -webkit-column-width: 90;
+}
+
+div#yearDiv ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#yearDiv ul li {
+    width: 90px;
+}
+
+div#radioDiv {
+    clear: both;
+    float: left;
+    font-size: 12px;
+}
+
+div#detailDataDiv {
+    float: left;
+    font-size: 15px;
+    margin-left : 30px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+#yearCheckUl li {
+    list-style-type: none;
+}
